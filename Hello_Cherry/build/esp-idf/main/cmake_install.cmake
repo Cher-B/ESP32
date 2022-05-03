@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/main
+# Install script for directory: C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

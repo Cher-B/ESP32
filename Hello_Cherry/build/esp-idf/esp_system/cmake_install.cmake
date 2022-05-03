@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/esp-idf/esp_system/port/cmake_install.cmake")
 
 endif()
 

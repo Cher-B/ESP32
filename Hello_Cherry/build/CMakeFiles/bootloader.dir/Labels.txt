@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/CMakeFiles/bootloader
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/CMakeFiles/bootloader.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/CMakeFiles/bootloader-complete.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/CMakeFiles/bootloader
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/CMakeFiles/bootloader.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/CMakeFiles/bootloader-complete.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

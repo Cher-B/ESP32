@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Hello_Cherry/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Hello_Cherry/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
