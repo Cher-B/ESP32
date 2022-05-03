@@ -9,20 +9,16 @@
 #define core_0 0
 #define core_1 1
 
-// Define pin number the default is 13 but it is not recommended to use it one can use another in build LED on PIN 2
 #define PIN 2
-// TAG for our logger
-static const char *TAG = "LED STATUS";
 
-// xTaskCreatePinnedToCore passes pvParameter although not used here
-void blink_led_core_1(void *pvParameter)
+void blink_led_core_1()
 {
     // Select GPIO pin
-    esp_rom_gpio_pad_select_gpio(PIN);
-    // Set the log level to INFO
-    esp_log_level_set("LOG", ESP_LOG_INFO);
+    gpio_pad_select_gpio(PIN);
+    
     // set PIN 2 as output
     gpio_set_direction(PIN, GPIO_MODE_OUTPUT);
+
     // Initialize the signal
     int isON = 0;
 
@@ -31,25 +27,19 @@ void blink_led_core_1(void *pvParameter)
         gpio_set_level(PIN, isON);
         // A delay of 1 second
         vTaskDelay(1000 / portTICK_PERIOD_MS);
-        // LOG the value of signal
-        ESP_LOGI(TAG, "Turning the LED %s!", isON == true ? "ON" : "OFF");
+        
+        printf("Turning the LED");
+        isON == true ? printf("ON") : printf("OFF");
         // change the value of signal
         isON = !isON;
-        // clear (or flush) the output buffer and move the buffered data to console
-        fflush(stdout);
     }
 }
 
-// xTaskCreatePinnedToCore passes pvParameter although not used here
-
-void hello_task_core_0(void *pvParameter)
+void hello_task_core_0()
 {
     while (1)
-    { // Print hello world with a delay
+    { 
         printf("Hello world from core %d!\n", xPortGetCoreID());
-        vTaskDelay(1323 / portTICK_PERIOD_MS);
-        // clear (or flush) the output buffer and move the buffered data to console
-        fflush(stdout);
     }
 }
 

@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Espressif/frameworks/esp-idf-v4.4/components/bootloader/subproject",
-    "build_dir":          "C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Dual_Core_Cherry/build/bootloader",
-    "config_file":        "C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Dual_Core_Cherry/sdkconfig",
+    "build_dir":          "C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Dual_Core_Cherry/build/bootloader",
+    "config_file":        "C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Dual_Core_Cherry/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

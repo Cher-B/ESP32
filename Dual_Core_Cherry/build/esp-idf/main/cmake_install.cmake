@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/CherryBhatt/Documents/ES_Pracs/ESP-32/Dual_Core_Cherry/main
+# Install script for directory: C:/Users/CherryBhatt/Documents/ES_Pracs/ESP32/Dual_Core_Cherry/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

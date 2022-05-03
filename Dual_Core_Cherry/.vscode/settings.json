@@ -14,5 +14,6 @@
     "files.associations": {
         "freertos.h": "c",
         "ratio": "c"
-    }
+    },
+    "idf.flashType": "UART"
 }
