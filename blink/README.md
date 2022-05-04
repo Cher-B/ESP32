@@ -26,7 +26,7 @@ This is a program that shows how to blink an LED using the ESP32 development boa
 * Through the ESP-IDF extension on Visual Studio Code
   Steps:
     1. Select and open your project folder.
-    2. Select your PORT and target board by clicking on these ![](2022-05-04-10-59-48.png) 
+    2. Select your PORT and target board by clicking on these ![](2022-05-04-11-23-34.png)
     3. Now click on ![](2022-05-04-11-02-20.png) to build the project.
     4. Click on ![](2022-05-04-11-03-07.png) to select flash method. I have used UART.
     5. Click on ![](2022-05-04-11-03-39.png) to flash it onto the board.
