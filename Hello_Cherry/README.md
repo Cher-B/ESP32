@@ -1,52 +1,46 @@
-# Hello World Example
+# Hello
 
-Starts a FreeRTOS task to print "Hello World".
+This is a program that shows how to print a statement using the ESP32 development board.
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+# Hardware Required
 
-## How to use example
+1. A development board with ESP32/ESP32-S2/ESP32-S3/ESP32-C3 SoC (e.g., ESP32-DevKitC, ESP-WROVER-KIT, etc.)
+2. A USB cable for Power supply and programming
 
-Follow detailed instructions provided specifically for this example. 
+# Software Required
 
-Select the instructions depending on Espressif chip installed on your development board:
+1. ESP-IDF Windows Development Framework for ESP32 at https://dl.espressif.com/dl/esp-idf/ for Windows
+2. Visual Studio Code extension: ESP-IDF Explorer at https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension
 
-- [ESP32 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html)
-- [ESP32-S2 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html)
+# How to run this code 
 
+* Through the ESP-IDF terminal
+  Steps:
+    1. Go to the directory where the project is saved
+    2. Before project configuration and build, be sure to set the correct chip target using `idf.py set-target Esp32`.
+    3. Type in `idf.py build` to build the project
+    4. Now flash it onto your board using the `idf.py -p (PORT) flash`. Make sure to select the correct PORT here.
+    5. You can use the `idf.py monitor` command to display your program output on the monitor.
+    6. You can also use the `idf.py -p PORT flash monitor` to flash and monitor at once.
 
-## Example folder contents
+* Through the ESP-IDF extension on Visual Studio Code
+  Steps:
+    1. Select and open your project folder.
+    2. Select your PORT and target board by clicking on these ![](2022-05-04-11-23-34.png)
+    3. Now click on ![](2022-05-04-11-02-20.png) to build the project.
+    4. Click on ![](2022-05-04-11-03-07.png) to select flash method. I have used UART.
+    5. Click on ![](2022-05-04-11-03-39.png) to flash it onto the board.
+    6. You can click on ![](2022-05-04-11-04-16.png) to display on monitor.
+    7. Alternatively you can use this ![](2022-05-04-11-06-10.png) to build, flash and monitor all at once. 
+    8. You can also open the ESP-IDF terminal using ![](2022-05-04-11-07-23.png) and use the terminal commands to build and implement your project.
 
-The project **hello_world** contains one source file in C language [hello_world_main.c](main/hello_world_main.c). The file is located in folder [main](main).
+# Output
 
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt` files that provide set of directives and instructions describing the project's source files and targets (executable, library, or both). 
+Hello Cherry. This is how you print on ESP-32
 
-Below is short explanation of remaining files in the project folder.
+# Points to note
 
-```
-├── CMakeLists.txt
-├── example_test.py            Python script used for automated example testing
-├── main
-│   ├── CMakeLists.txt
-│   ├── component.mk           Component make file
-│   └── hello_world_main.c
-├── Makefile                   Makefile used by legacy GNU Make
-└── README.md                  This is the file you are currently reading
-```
-
-For more information on structure and contents of ESP-IDF projects, please refer to Section [Build System](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html) of the ESP-IDF Programming Guide.
-
-## Troubleshooting
-
-* Program upload failure
-
-    * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
-    * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
-
-## Technical support and feedback
-
-Please use the following feedback channels:
-
-* For technical queries, go to the [esp32.com](https://esp32.com/) forum
-* For a feature request or bug report, create a [GitHub issue](https://github.com/espressif/esp-idf/issues)
-
-We will get back to you as soon as possible.
+* To exit the serial monitor, type `Ctrl-]`.
+* You can refer to the [Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for full steps to configure and use ESP-IDF to build projects.
+* You can refer to https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-monitor.html for other IDF monitor commands. 
+* For any queries, please open an [issue](https://github.com/Cher-B/ESP32/issues) on GitHub and I will try to get back to you soon.
