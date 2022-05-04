@@ -26,13 +26,13 @@ This is a program that shows how to print a statement using the ESP32 developmen
 * Through the ESP-IDF extension on Visual Studio Code
   Steps:
     1. Select and open your project folder.
-    2. Select your PORT and target board by clicking on these ![](2022-05-04-11-23-34.png)
-    3. Now click on ![](2022-05-04-11-02-20.png) to build the project.
-    4. Click on ![](2022-05-04-11-03-07.png) to select flash method. I have used UART.
-    5. Click on ![](2022-05-04-11-03-39.png) to flash it onto the board.
-    6. You can click on ![](2022-05-04-11-04-16.png) to display on monitor.
-    7. Alternatively you can use this ![](2022-05-04-11-06-10.png) to build, flash and monitor all at once. 
-    8. You can also open the ESP-IDF terminal using ![](2022-05-04-11-07-23.png) and use the terminal commands to build and implement your project.
+    2. Select your PORT and target board by clicking on these ![](2022-05-04-11-33-57.png)
+    3. Now click on ![](2022-05-04-11-34-24.png) to build the project.
+    4. Click on ![](2022-05-04-11-34-41.png) to select flash method. I have used UART.
+    5. Click on ![](2022-05-04-11-35-02.png) to flash it onto the board.
+    6. You can click on ![](2022-05-04-11-35-26.png) to display on monitor.
+    7. Alternatively you can use this ![](2022-05-04-11-35-42.png) to build, flash and monitor all at once. 
+    8. You can also open the ESP-IDF terminal using ![](2022-05-04-11-36-01.png) and use the terminal commands to build and implement your project.
 
 # Output
 
