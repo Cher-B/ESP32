@@ -1,6 +1,6 @@
 # Dual Core
 
-This program shows how to create and run tasks on the 2 cores of the ESP32 development board.
+This program shows how to create and run tasksbased on the priority assigned to them on the 2 cores of the ESP32 development board.
 
 # Hardware Required
 
