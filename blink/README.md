@@ -37,11 +37,17 @@ This is a program that shows how to blink an LED using the ESP32 development boa
 # Output
 
 Turning the LED OFF
+
 Turning the LED ON
+
 Turning the LED OFF
+
 Turning the LED ON
+
 Turning the LED OFF
+
 Turning the LED ON
+
 ...and so on
 
 
